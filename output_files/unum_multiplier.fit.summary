@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Nov 02 17:04:48 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : unum_multiplier
+Top-level Entity Name : unum_multiplier
+Family : Cyclone IV E
+Device : EP4CE6F17C8
+Timing Models : Final
+Total logic elements : 916 / 6,272 ( 15 % )
+    Total combinational functions : 894 / 6,272 ( 14 % )
+    Dedicated logic registers : 306 / 6,272 ( 5 % )
+Total registers : 306
+Total pins : 98 / 180 ( 54 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 7 / 30 ( 23 % )
+Total PLLs : 0 / 2 ( 0 % )
