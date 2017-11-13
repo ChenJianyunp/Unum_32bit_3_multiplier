@@ -10,10 +10,10 @@
 # Copying D:/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2 {F:/Unum/unumIII_32_3_multiplier_pipeline2/unum_multiplier.v}
+# vlog -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3 {F:/Unum/unumIII_32_3_multiplier_pipeline3/unum_multiplier.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:53:16 on Nov 02,2017
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2" F:/Unum/unumIII_32_3_multiplier_pipeline2/unum_multiplier.v 
+# Start time: 20:53:32 on Nov 12,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3" F:/Unum/unumIII_32_3_multiplier_pipeline3/unum_multiplier.v 
 # -- Compiling module unum_multiplier
 # -- Compiling module LZC
 # -- Compiling module BNE
@@ -21,28 +21,41 @@
 # 
 # Top level modules:
 # 	unum_multiplier
-# End time: 11:53:16 on Nov 02,2017, Elapsed time: 0:00:00
+# End time: 20:53:32 on Nov 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3 {F:/Unum/unumIII_32_3_multiplier_pipeline3/frac_mult.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:53:32 on Nov 12,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3" F:/Unum/unumIII_32_3_multiplier_pipeline3/frac_mult.v 
+# -- Compiling module frac_mult
+# 
+# Top level modules:
+# 	frac_mult
+# End time: 20:53:32 on Nov 12,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim {F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim/unum_multiplier.vt}
+# vlog -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim {F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim/unum_multiplier.vt}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:53:16 on Nov 02,2017
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim" F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim/unum_multiplier.vt 
+# Start time: 20:53:32 on Nov 12,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim" F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim/unum_multiplier.vt 
 # -- Compiling module unum_multiplier_vlg_tst
 # 
 # Top level modules:
 # 	unum_multiplier_vlg_tst
-# End time: 11:53:16 on Nov 02,2017, Elapsed time: 0:00:00
+# End time: 20:53:32 on Nov 12,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  unum_multiplier_vlg_tst
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" unum_multiplier_vlg_tst 
-# Start time: 11:53:16 on Nov 02,2017
+# Start time: 20:53:32 on Nov 12,2017
 # Loading work.unum_multiplier_vlg_tst
 # Loading work.unum_multiplier
 # Loading work.LZC
 # Loading work.BNE
 # Loading work.NLC
+# Loading work.frac_mult
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
 # 
 # add wave *
 # view structure
@@ -55,5 +68,5 @@ run
 run
 run
 run
-# End time: 11:53:38 on Nov 02,2017, Elapsed time: 0:00:22
+# End time: 20:53:59 on Nov 12,2017, Elapsed time: 0:00:27
 # Errors: 0, Warnings: 0

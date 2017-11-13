@@ -7,41 +7,63 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dF:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim
+Z0 dF:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim
 vBNE
-Z1 !s110 1509619996
+Z1 !s110 1510516412
 !i10b 1
-!s100 AI7_>Y3VDo@jXjlkfeOAE3
-Inhz;?6hBHPW[l=RSlEP[23
+!s100 9f<bYN8ImKY5>=zPDSo4:0
+Id9KWO6z><EE]d>iYJRN`H2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1509619983
-Z4 8F:/Unum/unumIII_32_3_multiplier_pipeline2/unum_multiplier.v
-Z5 FF:/Unum/unumIII_32_3_multiplier_pipeline2/unum_multiplier.v
-L0 180
+Z3 w1510485303
+Z4 8F:/Unum/unumIII_32_3_multiplier_pipeline3/unum_multiplier.v
+Z5 FF:/Unum/unumIII_32_3_multiplier_pipeline3/unum_multiplier.v
+L0 199
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1509619996.000000
-Z8 !s107 F:/Unum/unumIII_32_3_multiplier_pipeline2/unum_multiplier.v|
-Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2|F:/Unum/unumIII_32_3_multiplier_pipeline2/unum_multiplier.v|
+Z7 !s108 1510516412.000000
+Z8 !s107 F:/Unum/unumIII_32_3_multiplier_pipeline3/unum_multiplier.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3|F:/Unum/unumIII_32_3_multiplier_pipeline3/unum_multiplier.v|
 !i113 1
 Z10 o-vlog01compat -work work
-Z11 !s92 -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2
+Z11 !s92 -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3
 Z12 tCvgOpt 0
 n@b@n@e
+vfrac_mult
+R1
+!i10b 1
+!s100 K4YHzSHUN8hiDUVc@S2lH3
+Ic^`2:;Z<[oFWVF:WGHKTY1
+R2
+R0
+w1510441661
+8F:/Unum/unumIII_32_3_multiplier_pipeline3/frac_mult.v
+FF:/Unum/unumIII_32_3_multiplier_pipeline3/frac_mult.v
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+!s107 F:/Unum/unumIII_32_3_multiplier_pipeline3/frac_mult.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3|F:/Unum/unumIII_32_3_multiplier_pipeline3/frac_mult.v|
+!i113 1
+R10
+R11
+R12
 vLZC
 R1
 !i10b 1
-!s100 e^fbVZ_lSL@1Q@PZS[AWo2
-IJ0cQDKFSV297]eDBzzmMd3
+!s100 ^TiKO8l?@aRLaH1=Z89Q90
+IBeaVV1dC[ZHmTUJ;_UnWC2
 R2
 R0
 R3
 R4
 R5
-L0 137
+L0 159
 R6
 r1
 !s85 0
@@ -57,14 +79,14 @@ n@l@z@c
 vNLC
 R1
 !i10b 1
-!s100 JeWFHoM[TYz;UJ=5z9A6^0
-Inhgh`cAo<hdT1Mz_PoR:70
+!s100 DTMXm3D?7hQH9b^L7^jAl2
+ID7^;^elGNdif3c?[?Z__X2
 R2
 R0
 R3
 R4
 R5
-L0 191
+L0 210
 R6
 r1
 !s85 0
@@ -80,8 +102,8 @@ n@n@l@c
 vunum_multiplier
 R1
 !i10b 1
-!s100 @?bfX4?U;=j`HaPg1gU3N1
-IBU>m9J6U7ikBNQ[i6T1[]1
+!s100 On?kVH>ao[^zlXA@d8Izo2
+ITDJX5nZm1X`6L6<lOn1c40
 R2
 R0
 R3
@@ -103,21 +125,21 @@ vunum_multiplier_vlg_tst
 R1
 !i10b 1
 !s100 0QU6Iib9dPhCez3loazOm2
-Ijc5^jR<>Iji?:R5jeFh3g3
+IBN=Ao7[aS`cJF_C554eEY3
 R2
 R0
 w1509619629
-8F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim/unum_multiplier.vt
-FF:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim/unum_multiplier.vt
+8F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim/unum_multiplier.vt
+FF:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim/unum_multiplier.vt
 L0 29
 R6
 r1
 !s85 0
 31
 R7
-!s107 F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim/unum_multiplier.vt|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim|F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim/unum_multiplier.vt|
+!s107 F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim/unum_multiplier.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim|F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim/unum_multiplier.vt|
 !i113 1
 R10
-!s92 -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline2/simulation/modelsim
+!s92 -vlog01compat -work work +incdir+F:/Unum/unumIII_32_3_multiplier_pipeline3/simulation/modelsim
 R12
